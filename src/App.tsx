@@ -115,6 +115,7 @@ function App() {
 
       {/* ApexCharts Component */}
       {selectedRows.length > 0 ? (
+          // @ts-ignore
         <Chart
           options={chartOptions}
           series={chartSeries}
